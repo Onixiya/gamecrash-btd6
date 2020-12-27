@@ -9,7 +9,7 @@ namespace GameCrash
 {
     public class GameCrash : MelonMod
     {
-        Random rnd = new Random(); //making rnd var for getting random numbers
+        Random rnd = new Random(); //rnd var for getting random numbers
         float timer = 0.0f; //timer float so we can know when to attempt a quit
         float limit = 10.0f; //how long before the next attempt at quitting will be in seconds, its a float as well bc timer is a float
         public override void OnApplicationStart() //runs only once
@@ -41,9 +41,9 @@ namespace GameCrash
                     Thread.Sleep(5000); //pauses the whole btd6 process for 5 seconds, Sleep() uses milliseconds
                     Environment.Exit(0); //quits the btd6 process
                 }
-                else
+                else //runs when the if above is false
                 {
-                    timer = 0.0f; //sets timer back to 0 when the random number isn't equal to 42
+                    timer = 0.0f; //sets timer back to 0
                 }
             }
         }
