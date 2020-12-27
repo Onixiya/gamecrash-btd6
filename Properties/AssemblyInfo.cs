@@ -5,7 +5,7 @@ using MelonLoader;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: MelonInfo(typeof(test.test), "tests", "0.0.0", "onixiya")]
+[assembly: MelonInfo(typeof(GameCrash.GameCrash), "Game Crasher", "1.0.0", "onixiya")]
 [assembly: MelonGame("Ninja Kiwi", "BloonsTD6")]
 [assembly: AssemblyTitle("")]
 [assembly: AssemblyDescription("")]
